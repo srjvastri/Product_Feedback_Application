@@ -27,5 +27,5 @@ def checkProduct(product):
 
 def checkdob(dob):
     if not re.match('(\d{2})[/.-](\d{2})[/.-](\d{4})$', dob):
-        showerror(title="Error", message="Please enter Date Of Birth in [dd/mm/yyy] format ")
+        showerror(title="Error", message="Please enter Date Of Birth in [dd/mm/yyy] format ") 
 
